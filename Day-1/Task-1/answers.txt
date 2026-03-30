@@ -1,0 +1,5 @@
+The popular websites that use React are ::
+
+1. WhatsApp Web -- The reusable component on the website is the profile component as it has the same UI structure in personal profile view and other person's contact info panels
+2. Netflix Web Interface -- The reusable component on the website is the Movie/Show Card as it has same structure but different content for different users.
+3. Airbnb -- The reusable component is the Property listing card as each stay is shown using the same card component across search results.
