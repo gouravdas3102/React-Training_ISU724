@@ -3,16 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Toggle from './hooks/Toggle'
-import TextInput from './hooks/TextInput'
+import HoverBox from './components/HoverBox'
 
 function App() {
   return(
-    <div>
-      {/* Importing toggle component and mirroring text input component */}
-      <Toggle/>
-      <TextInput/>
-    </div>
+    <HoverBox />
   )
 }
 
