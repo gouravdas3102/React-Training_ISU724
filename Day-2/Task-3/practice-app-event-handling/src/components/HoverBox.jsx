@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// HoverBox component that changes background color on hover
 function HoverBox(){
     const[boxColor,setBoxColor] = useState("blue");
     return (
