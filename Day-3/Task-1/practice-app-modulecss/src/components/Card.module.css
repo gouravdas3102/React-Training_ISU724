@@ -1,0 +1,13 @@
+/* Css styling for Card Component using modular method */
+.container {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
