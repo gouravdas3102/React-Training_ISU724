@@ -1,0 +1,19 @@
+.base{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Light mode styling */
+.light{
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Dark mode styling */
+.dark{
+    background-color: #333;
+    color: #fff;
+}
