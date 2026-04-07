@@ -1,0 +1,31 @@
+.backgroundContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.backgroundImage {
+    position: absolute;
+    width: 647px;            
+    height: 647px;
+    top: 173.51px;               
+    left: -272.24px;            
+
+    background-size: 1700px 600px;   
+    background-position: 0px 0px;   
+    background-repeat: no-repeat;
+
+    filter: blur(25px); 
+    opacity: 1;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.blurShape {
+    display: none;
+}

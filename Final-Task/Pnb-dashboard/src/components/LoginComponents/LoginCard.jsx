@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import styles from "./LoginCard.module.css";
-import Footer from "./Footer";
-import logo from "../assets/images/logo.png";
+import logo from "../../assets/images/logo.png";
 
 export default function LoginCard() {
   const [showPassword, setShowPassword] = useState(false);
@@ -13,7 +12,6 @@ export default function LoginCard() {
   };
 
   return (
-      <div className={styles.pageContainer}>
         <div className={styles.loginCard}>
           
           {/* Logo */}
@@ -76,6 +74,5 @@ export default function LoginCard() {
             </div>
           </form>
         </div>
-      </div>
   );
 }
