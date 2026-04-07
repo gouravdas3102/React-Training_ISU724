@@ -1,0 +1,33 @@
+/* Footer wrapper */
+.footerContainer {
+    position: absolute;   /* stick to bottom */
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Inner footer */
+.footer {
+    display: flex;
+    gap: 30px;
+}
+
+/* Links */
+.footerLink {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Public Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: #8C8C8C;
+
+    text-decoration: underline;
+}
+
+.footerLink:hover {
+    color: #9E173B;
+}

@@ -1,0 +1,16 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    width: 100%;              /* better than min-width */
+
+    background: #FAFAFA;
+}
+
+.mainContent {
+    flex: 1;                        /* pushes footer down */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,168 @@
+/* Page wrapper */
+.pageContainer {
+    min-height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+/* Card */
+.loginCard {
+    width: auto;
+    height :auto;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo */
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 127;
+    height: 51;
+    opacity: 1;
+
+}
+
+.logo {
+    width: 120px;
+}
+
+/* Title */
+.cardTitle {
+    margin-bottom: 24px;
+    color: #222;
+    font-family: 'Public Sans',Arial, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    
+}
+
+/* Form */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Input group */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+.label {
+    margin-bottom: 6px;
+    color: var(--Secondary-6, #8C8C8C);
+    text-align: left;
+    font-family: 'Public Sans',Arial, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+/* Input */
+.input {
+    width: 395px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 4px;
+    border: 1px solid var(--Secondary-4, #D9D9D9);
+    font-size: 14px;
+    background: var(--Other-Color-A1, #FFFFFF);
+    color:#262626;
+}
+
+/* Password wrapper */
+.passwordWrapper {
+    position: relative;
+}
+
+/* Eye icon */
+.togglePasswordBtn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+/* Button */
+.loginButton {
+    height: 40px;
+    background: #9e173b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.loginButton:hover {
+    background: #7d122f;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Remember me */
+.rememberMe {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    font-family: 'Public Sans',Arial,sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+    color: #222222;
+}
+
+.rememberMeInput{
+    width: 12px;
+    height: 12px;
+    accent-color: #9E173B;
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 0.67px;
+    background: #FFFFFF;
+    border-color: 0.67px solid #222222
+}
+
+/* Forgot password */
+.forgotPassword {
+    color: #9e173b;
+    text-decoration: none;
+}
+
+.forgotPassword:hover {
+    text-decoration: underline;
+}
