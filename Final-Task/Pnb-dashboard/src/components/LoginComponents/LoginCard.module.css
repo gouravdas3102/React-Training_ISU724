@@ -8,6 +8,7 @@
     border-radius: 8px;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08);
     z-index: 2;
+    align-content: center;
 }
 
 /* Logo */
@@ -98,6 +99,9 @@
 
 /* Button */
 .loginButton {
+    display: block;
+    margin: 0 auto;
+    padding: 0 24px;
     height: 40px;
     background: #9e173b;
     color: #fff;

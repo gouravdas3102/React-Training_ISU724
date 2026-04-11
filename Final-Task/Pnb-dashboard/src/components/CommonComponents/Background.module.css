@@ -13,14 +13,14 @@
     position: absolute;
     width: 647px;            
     height: 647px;
-    top: 173.51px;               
+    top: 0px;               
     left: -272.24px;            
 
     background-size: 1700px 600px;   
     background-position: 0px 0px;   
     background-repeat: no-repeat;
 
-    filter: blur(25px); 
+    filter: blur(20px); 
     opacity: 1;
     pointer-events: none;
     z-index: 0;

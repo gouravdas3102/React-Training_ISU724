@@ -1,0 +1,137 @@
+.help-support-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+  background-color: #FAFAFA;
+  padding: 24px;
+}
+
+.help-content-card {
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
+  padding: 60px 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming-soon-badge {
+  background: #F8E7EB;
+  color: #9E173B;
+  padding: 6px 16px;
+  border-radius: 99px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.illustration-wrapper {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.icon-circle {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #9E173B 0%, #7A112D 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(158, 23, 59, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.hero-icon {
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.floating-elements .dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #FAB90C; /* PNB Gold */
+  animation: float 3s ease-in-out infinite;
+}
+
+.dot-1 { width: 12px; height: 12px; top: -10px; right: -5px; animation-delay: 0s; }
+.dot-2 { width: 18px; height: 18px; bottom: 10px; left: -20px; animation-delay: 0.5s; opacity: 0.6; }
+.dot-3 { width: 8px; height: 8px; top: 40px; left: -30px; animation-delay: 1s; opacity: 0.4; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.coming-soon-title {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #262626;
+  margin: 0 0 16px 0;
+}
+
+.coming-soon-subtitle {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8C8C8C;
+  margin-bottom: 40px;
+}
+
+.pnb-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #F0F0F0;
+}
+
+.divider-pnb-logo {
+  width: 12px;
+  height: 12px;
+  background-color: #FAB90C;
+  transform: rotate(45deg);
+}
+
+.contact-placeholder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-label {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 14px;
+  color: #8C8C8C;
+}
+
+.contact-link {
+  color: #9E173B;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: #7A112D;
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.sider{
+    width: 260px;
+    height: 1078px;
+    opacity: 1;
+    gap: 276px;
+    background: var(--Other-Color-A1, #FFFFFF);
+    border: 1px solid var(--Secondary-3, #F0F0F0);
+    left: 0;
+    top: 0;
+    position: fixed;
+}

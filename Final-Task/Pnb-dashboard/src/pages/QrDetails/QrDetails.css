@@ -1,0 +1,187 @@
+.qr-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 32px;
+  gap: 12px;
+  background: var(--bg-body);
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.qr-details-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.qr-type-selector {
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.qr-type-desc {
+  font-size: 14px;
+  color: #595959;
+}
+
+.qr-type-options {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.qr-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #262626;
+  cursor: pointer;
+}
+
+.qr-radio-label input[type="radio"] {
+  accent-color: var(--pnb-brand);
+  width: 16px;
+  height: 16px;
+  cursor: inherit;
+}
+
+.qr-radio-label.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.qr-card-container {
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  border-radius: 4px;
+  padding: 12px 0;
+  flex-grow: 1;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-state {
+  padding: 100px;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.qr-card {
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #fafafa;
+}
+
+.qr-pnb-logo {
+  height: 28px;
+  object-fit: contain;
+  margin-bottom: 4px;
+}
+
+.qr-upi-info {
+  font-size: 12px;
+  color: #595959;
+  margin-bottom: 12px;
+}
+
+.qr-merchant-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.qr-merchant-avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+}
+
+.qr-merchant-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.qr-image-display {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.qr-placeholder {
+  width: 180px;
+  height: 180px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8c8c8c;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.qr-upi-info-bottom {
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 12px;
+}
+
+.qr-download-btn {
+  background: var(--pnb-brand);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.qr-download-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.qr-download-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.upi-powered-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.upi-text {
+  font-size: 10px;
+  color: #8c8c8c;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.qr-upi-logo-img {
+  height: 35px; /* Proportionally sizes the explicit PNG */
+  object-fit: contain;
+}

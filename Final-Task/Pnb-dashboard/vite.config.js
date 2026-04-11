@@ -8,4 +8,25 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    port: 3000,
+    proxy: {
+      '/pnb/api': {
+        target: 'https://auth-dev-stage.iserveu.online',
+        changeOrigin: true,
+        headers: {
+          'User-Agent': 'PostmanRuntime/7.32.3'
+        },
+        rewrite: (path) => path.replace(/^\/pnb\/api/, '/pnb')
+      },
+      '/api/iserveu': {
+        target: 'https://encr-decr.iserveu.online',
+         changeOrigin: true,
+        headers: {
+          'User-Agent': 'PostmanRuntime/7.32.3'
+        },
+        rewrite: (path) => path.replace(/^\/api\/iserveu/, '')
+      }
+    }
+  }
 })

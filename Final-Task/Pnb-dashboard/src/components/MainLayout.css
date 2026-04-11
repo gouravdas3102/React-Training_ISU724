@@ -1,0 +1,20 @@
+.main-layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.layout-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0; /* prevent flex blowout */
+}
+
+.layout-main-content {
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+  background-color: var(--bg-main);
+}

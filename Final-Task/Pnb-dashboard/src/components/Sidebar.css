@@ -1,0 +1,73 @@
+/* sider */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 100%;
+  background: var(--bg-sider);
+  border-right: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.sidebar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0px;
+  height: 51px;
+  box-sizing: content-box;
+}
+
+.logo-image {
+  max-width: 120px;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 12px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 25px;
+  width: 100%;
+  height: 44px;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: var(--text-dark);
+}
+
+.menu-item:hover {
+  background: var(--bg-hover);
+}
+
+.menu-item.active {
+  background: var(--pnb-brand);
+  border-right: 2px solid var(--pnb-secondary);
+  color: var(--text-inverse);
+}
+
+.menu-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-inner .icon {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.menu-inner .title {
+  font-size: 14px;
+  line-height: 22px;
+}
